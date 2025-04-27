@@ -1,22 +1,23 @@
-This is for educational purpose ONLY. To run this pip install imports you need.
-setup email address and password and Set file_path to a writable directory (e.g., C:\\Users\\YourName\\Documents).
-
-Data Collection:
-System Information: Gathers details like processor type, OS, machine type, hostname, and IP address.
-Microphone Recording: Records audio input for a specified duration (microphone_time).
-Clipboard Data: Accesses the clipboard and writes its content to a file.
-Screenshot: Captures and saves the screen's image.
-Keylogger: Logs keystrokes in real-time and stores them in a file.
-
-Libraries Imported:
-email.mime and smtplib: Used to send the collected data via email.
-socket and platform: Used to fetch system and network details.
-sounddevice and scipy.io.wavfile: For recording audio through the microphone.
-win32clipboard: To access clipboard contents.
-pyscreenshot: For capturing screenshots.
-pynput: To monitor and log keyboard inputs.
-os and time: For file handling and timing the script's actions.
 
 
-!!!!Warning!!!!
-Running this script without explicit permission violates ethical and legal standards. Use it responsibly, ideally in isolated environments for educational purposes only.
+This is a simple keylogger written in Python that:
+- Logs all keystrokes to a file
+- Takes a screenshot
+- Copies clipboard content
+- Saves all output directly to your Desktop
+- Stops automatically after a timer or when pressing ESC(can be changed)
+
+
+When you run the script, the following files will appear on your Desktop:
+- `key_log.txt` — all keys you typed
+- `screenshot.png` — a screenshot
+- `clipboard.txt` — copied text from clipboard
+- `system.txt` — basic system information
+
+---
+
+## 🚀 How to Run
+
+1. Make sure you have Python installed (Python 3.8+ recommended).
+2. Install the required libraries
+
