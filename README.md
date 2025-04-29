@@ -1,4 +1,4 @@
-
+EDUCATIONAL PURP ONLY
 
 This is a simple keylogger written in Python that:
 - Logs all keystrokes to a file
